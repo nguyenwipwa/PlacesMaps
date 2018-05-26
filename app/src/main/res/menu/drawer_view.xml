@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_camera"
+        android:id="@+id/nav_art"
+        android:icon="@drawable/ic_local_activity_black_24dp"
+        android:title="Art/Entertainment" />
+        <item
+            android:id="@+id/nav_bar"
+            android:icon="@drawable/ic_local_bar_black_24dp"
+            android:title="Bar" />
+        <item
+            android:id="@+id/nav_coffee"
+            android:icon="@drawable/ic_local_cafe_black_24dp"
+            android:title="Coffee Shop" />
+        <item
+            android:id="@+id/nav_drugstore"
+            android:icon="@drawable/ic_local_pharmacy_black_24dp"
+            android:title="Drugstore/ Pharmacy" />
+        <item
+            android:id="@+id/nav_food"
             android:icon="@drawable/ic_restaurant_black_24dp"
-            android:title="@string/food" />
+            android:title="Food" />
+
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/ic_ev_station_black_24dp"
+            android:title="Gas Station/Garage " />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="Hotel" />
+        <item
+            android:id="@+id/nav_medical"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Medical Center" />
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="Movie Theater" />
+        <item
+            android:id="@+id/nav_nightlife"
+            android:icon="@drawable/ic_local_convenience_store_black_24dp"
+            android:title="Nightlife Spot" />
+        <item
+            android:id="@+id/nav_outdoor"
+            android:icon="@drawable/ic_nature_people_black_24dp"
+            android:title="Outdoor Recreation" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="Parking" />
+
     </group>
 </menu>
